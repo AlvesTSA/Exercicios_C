@@ -1,4 +1,8 @@
 # Exercicios_C
+<div align="center">
+<img src="https://user-images.githubusercontent.com/116441568/233226143-1194e7a7-fb51-43af-96b9-c895e4554178.jpg" width="100px" />
+</div>
+
 ## Conhecendo e treinando C
 
 ### Estrutura sequencial
