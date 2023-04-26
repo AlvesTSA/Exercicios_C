@@ -17,7 +17,7 @@ int main(){
         printf("O maior número é: %d", num1);
 
     }
-    if (num2 > num1) {
+    else {
         
         printf("O maior número é: %d", num2);
 
