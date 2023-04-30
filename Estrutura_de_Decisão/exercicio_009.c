@@ -32,7 +32,7 @@ int main(){
         
     }
 
-    if (num2 > num1 && num2 > num3){
+    else if (num2 > num1 && num2 > num3){
 
         maior1 = num2;
 
@@ -50,7 +50,7 @@ int main(){
         
     }
 
-    if (num3 > num1 && num3 > num2){
+    else {
 
         maior1 = num3;
 
