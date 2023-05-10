@@ -68,9 +68,7 @@ Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem q
 
 <details>
 <summary align = "center"> 
-
 <h2 align = "center">Estrutura sequencial</h2>
-
 </summary>
 
 <p align = "justify">
@@ -191,12 +189,9 @@ Informe ao usuário as quantidades de tinta a serem compradas e os respectivos p
  <strong> 18. </strong> Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 </p>
 </details>
-
 <details>
 <summary align = "center">
-
-<h2 align = "center">Estrutura de decisão</h2 
-
+<h2 align = "center">Estrutura de decisão</h2>
 </summary>
 
 <p align = "justify">
@@ -406,7 +401,6 @@ O salário líquido corresponde ao salário bruto menos os descontos. O programa
 </pre>
 <p align = "justify">Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total da compra. Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.</p>
 </p>
-
 </details>
 
 
