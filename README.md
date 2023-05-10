@@ -56,7 +56,7 @@
  <strong> g)</strong> O que são e como usar os conectores lógicos (and, or)
 </p>
 <p align="left">
- <strong> h)</strong> Compreender o que são e como usar condicionais (IF e Else)
+ <strong> h)</strong> Compreender o que são e como usar condicionais (iF, else, else if e switch case)
 </p>
 <p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
 
