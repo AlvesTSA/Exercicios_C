@@ -5,7 +5,7 @@
 
 <h1 align="center">Conhecendo e treinando C</h1>
 
-Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem que você preferir, apenas tome cuidado e os adapte a medida que você percebe as limitações de cada linguagem.
+<p align="justify">Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem que você preferir, apenas tome cuidado e os adapte a medida que você percebe as limitações de cada linguagem.</p>
 <p align="center">
   💼 Skills: <strong>pré-requisito para resolver os exercícios sobre estrutura sequencial.</strong>
 </p>
