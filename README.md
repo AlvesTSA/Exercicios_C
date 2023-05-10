@@ -66,8 +66,9 @@ Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem q
 <p>A interpretação do exercício e como resolve-lo faz parte do exercício;</p>
 <p>Você poderá utilizar IDE’s de programação de seu interesse, mas lembre-se, o risco de se acomodar com as comodidades da IDE é seu;</p>
 
-<h2 align = "center">Estrutura sequencial</h2>
- 
+<details>
+<summary> <h2 align = "center">Estrutura sequencial</h2>
+</summary>
 
 <p align = "justify">
  <strong> 1. </strong> Faça um Programa que mostre a mensagem "Alo mundo" na tela.
@@ -186,7 +187,7 @@ Informe ao usuário as quantidades de tinta a serem compradas e os respectivos p
 <p align = "justify">
  <strong> 18. </strong> Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 </p>
-
+</details>
 
 <h2 align = "center">Estrutura de decisão</h2 
 
