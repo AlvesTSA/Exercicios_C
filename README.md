@@ -67,7 +67,7 @@ Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem q
 <p>Você poderá utilizar IDE’s de programação de seu interesse, mas lembre-se, o risco de se acomodar com as comodidades da IDE é seu;</p>
 
 <details>
-<summary> <h2 align = "center">Estrutura sequencial</h2>
+<summary align = "center"> <h2 align = "center">Estrutura sequencial</h2>
 </summary>
 
 <p align = "justify">
