@@ -66,10 +66,10 @@ Esses exercícios são genéricos e podem ser resolvidos em qualquer linguagem q
 <p>A interpretação do exercício e como resolve-lo faz parte do exercício;</p>
 <p>Você poderá utilizar IDE’s de programação de seu interesse, mas lembre-se, o risco de se acomodar com as comodidades da IDE é seu;</p>
 
-<h2 style="text-align: center;">Estrutura sequencial</h2 
+<h2 align = "center">Estrutura sequencial</h2>
  
 
-<p style="text-align: justify;">
+<p align = "justify">
  <strong> 1. </strong> Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 </p>
 
