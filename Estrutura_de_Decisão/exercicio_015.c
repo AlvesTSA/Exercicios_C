@@ -21,9 +21,9 @@ int main(){
     printf("Informe os lados do triângulo:\n");
     scanf("%f %f %f", &lado_a, &lado_b, &lado_c);
 
-    if ((lado_a + lado_b) > lado_c && (lado_b + lado_c) > lado_a && (lado_a + lado_c) > lado_b){
+    if ((lado_a + lado_b) > lado_c && (lado_b + lado_c) > lado_a && (lado_a + lado_c) > lado_b && lado_a > 0 && lado_b > 0 && lado_c > 0){
 
-        if (lado_a == lado_b == lado_c){
+        if (lado_a == lado_b && lado_a == lado_c && lado_b == lado_c){
 
             printf("Triângulo equilátero");
            
@@ -33,7 +33,7 @@ int main(){
             printf("Triângulo isósceles");
 
         }
-        else if (lado_a != lado_b != lado_c){
+        else if (lado_a != lado_b && lado_a != lado_c && lado_b != lado_c){
             
             printf("Triângulo escaleno");
 
