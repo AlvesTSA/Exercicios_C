@@ -9,7 +9,7 @@ int main(){
     printf("Informe um ano: ");
     scanf("%d", &ano);
 
-    if (ano % 4 == 0 && ano % 100 != 0){
+    if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)){
 
         printf("%d é um ano bissexto.", ano);
 
