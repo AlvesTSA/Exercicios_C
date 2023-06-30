@@ -89,7 +89,7 @@
  <strong> h)</strong> Compreender o que são e como usar condicionais (iF, else, else if e switch case)
 </p>
 <p align="left">
- <strong> i)</strong> Compreender o que são e como usar laços de repetição (for e while)
+ <strong> i)</strong> Compreender o que são e como usar laços de repetição (for, while e do-while)
 </p>
 <p>Caso você não conheça algum desses assuntos, pare um pouco e dê uma revisada no conteúdo antes de prosseguir.</p>
 
