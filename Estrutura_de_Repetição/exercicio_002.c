@@ -7,17 +7,21 @@ int main(){
 
     char nome[50] = "";
     char senha[50] = "";
-    
-    printf("Informe um nome de usuario: ");
-    scanf("%s", nome);
 
     do{
+
+        printf("Informe um nome de usuario: ");
+        scanf("%s", nome);
         printf("Informe uma senha: ");
         scanf("%s", senha);
 
         if(strcmp(nome, senha) == 0){
 
             printf("Erro: sua senha nao pode ser igual ao nome de usuario\n");
+        }
+        else{
+
+            printf("usuario e senha criado com sucesso");
         }
 
     }while(strcmp(nome, senha) == 0);
