@@ -11,18 +11,19 @@ A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro
 
 int main(){
 
-    float salario = 0;
-    float perc_aumento = 0.015;
-    
+    double salario = 0;
+    double perc_aumento = 0.015;
+    //double new_salario = 0;
+
     printf("Informe seu salario inicial: ");
-    scanf("%f", &salario);
+    scanf("%lf", &salario);
 
     for (int i = 1996; i <= 2023; i++){
         
-        salario = salario*perc_aumento + salario;
-        perc_aumento *= 2;
+        salario = salario * (1 + perc_aumento);
+        //perc_aumento *= 2;
     }
-    printf("Salario atual: R$ %.2f", salario);
+    printf("Salario atual: R$ %.2lf", salario);
 
     return 0;
-}
+} 
