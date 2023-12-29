@@ -27,17 +27,12 @@ int main(){
     float media_veiculo = 0;
     float soma_acidente = 0;
     float media_acidente = 0;
-    float maior_acidente = 0;
-    //float maior_altura = 0;
+    int maior_acidente = 0; 
     int menor_acidente = 999;
-    //float menor_altura = 999;
     int count = 0;
     int count_veiculo = 0;
-    //int count_altura = 0;
     int cod_maior_acidente = 0;
-    //int cod_maior_altura = 0;
     int cod_menor_acidente = 0;
-    //int cod_menor_altura = 0;
 
     for(int i = 1; i <= 5; i++){
         
@@ -76,8 +71,8 @@ int main(){
 
     printf("\nCidade (codigo %d) tem o maior indice de acidentes: %d",cod_maior_acidente,maior_acidente);
     printf("\nCidade (codigo %d) tem o menor indice de acidentes: %d",cod_menor_acidente,menor_acidente); 
-    printf("\nmedia de veiculos: %.2f",media_veiculo);
-    printf("\nMedia de acidentes em cidades com menos de 2000 veiculos: %.2f",media_acidente);
+    printf("\nmedia de veiculos: %.1f",media_veiculo);
+    printf("\nMedia de acidentes em cidades com menos de 2000 veiculos: %.1f",media_acidente);
 
     return 0;
 }
