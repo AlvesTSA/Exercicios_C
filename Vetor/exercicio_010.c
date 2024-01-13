@@ -7,26 +7,41 @@ int main(){
     int a[10];
     int b[10];
     int c[20];
+    int i = 0;
+    int y = 0;
+    int w = 0;
 
     printf("Informe os elementos do vetor a:\n");
 
-    for (int i = 0; i < 10; i++){
+    for (i = 0; i < 10; i++){
         
         scanf("%d", &a[i]);
     }
 
     printf("Informe os elementos do vetor b:\n");
 
-    for (int i = 0; i < 10; i++){
+    for (y = 0; y < 10; y++){
         
-        scanf("%d", &b[i]);
+        scanf("%d", &b[y]);
     }
 
-    for (int i = 0; i < 20; i++){
+    i = 0;
+    y = 0;
+    
+    for (w = 0; w < 20; w += 2 ){
         
-        c[i] = a[i];
+        c[w] = a[i];
+        i++;
+    }
+    for (w = 1; w < 20; w += 2 ){
+        
+        c[w] = b[y];
+        y++;
+    }
+    for (w = 0; w < 20; w++ ){
+        
+        printf("%d ", c[w]);
     }
     
-    
-    
+    return 0;
 }
