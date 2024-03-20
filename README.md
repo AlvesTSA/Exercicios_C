@@ -1443,7 +1443,7 @@ Na terceira e ultima opção, você deve perguntar ao usuário qual numero ele d
     <td>210</td>
     <td>190</td>
     <td></td>
-    <td></td>
+    <td>190</td>
   </tr>
   <tr>
     <td>(BBugres)</td>
