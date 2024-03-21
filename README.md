@@ -1276,7 +1276,7 @@ Faça um algoritmo que seja capaz de ler esse vetor e seguir a trajetória.
 </summary>
 
 <p align = "justify">
- <strong> 1. </strong> Leia uma matriz 10 x 10 e escreva a localização (linha e a coluna) do maior valor.
+ <strong> 1. </strong> Leia uma matriz 3 x 3 e escreva a localização (linha e a coluna) do maior valor.
 </p>
 
 <p align = "justify">
