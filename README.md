@@ -1319,7 +1319,7 @@ Faça um algoritmo que seja capaz de ler esse vetor e seguir a trajetória.
 </p>
 
 <p align = "justify">
- <strong> 12. </strong>Leia duas matrizes 4 x 4 e verifique se uma é palíndromo, isto é,  sua leitura a partir de qualquer direção sempre apresentara a mesma seqüência.
+ <strong> 12. </strong>Leia uma matriz 4 x 4 e verifique se é palíndromo, isto é, sua leitura a partir de qualquer direção sempre apresentara a mesma seqüência.
 <pre>   EX.                  SATOR
                         AREPO
                         TENET
