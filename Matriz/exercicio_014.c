@@ -1,43 +1,68 @@
-/*14. Um número palíndromo é aquele que, se lido de trás para frente e de frete para trás, é o mesmo. Exemplos: 2112, 666, 2442 etc… Sabendo disso, crie um programa que pergunte ao usuário um intervalo, por exemplo: Inicio – 30, Fim – 2000; Com base neste intervalo, verifique quantos palíndromos existem e exiba-os na tela.*/
+/*15. Faça um jogo de batalha naval, utilize as seguinte regras:
+
+– O primeiro usuário será o que vai configurar o tabuleiro inserindo os navios. – O tabuleiro deve ter 8×8 – Quando inserido todos os navios o restante será considerado como “água”. – Cada navio pode ocupar apenas 1 posição – O jogador deve respeitar o espaço de 1 célula entre os navios – O jogador que irá descobrir onde os navios estão tem apenas 10 tiros – O jogador 1 pode posicionar 5 navios*/
 
 #include <stdio.h>
-#define MAX_SIZE 100
+#include <stdlib.h>
+#include <time.h>
+#define size 8
 
-int main() {
-    int start, end;
-    int numbers[MAX_SIZE];
-    int palindromeCount = 0;
+int main(){
 
-    printf("Digite o intervalo (inicio e fim separados por espaço): ");
-    scanf("%d %d", &start, &end);
+    int tabuleiro[size][size];
+    srand(time(NULL));
+    int linha = 0;
+    int coluna = 0;
+    const int tiros = 10;
+    const int quant_navios = 5;
 
-    printf("Números no intervalo [%d, %d]:\n", start, end);
-    int index = 0;
-    for (int i = start; i <= end; i++) {
-        numbers[index++] = i;
-        printf("%d ", i);
-    }
-    printf("\n");
+    for (int i = 0; i < quant_navios; i++){
+        
+        do{
+            linha = rand() % size;
+            coluna = rand() % size;
 
-    printf("Palíndromos no intervalo [%d, %d]:\n", start, end);
-    for (int i = 0; i < index; i++) {
-        int originalNumber = numbers[i];
-        int reversedNumber = 0;
-        int temp = originalNumber;
-
-        while (temp > 0) {
-            int remainder = temp % 10;
-            reversedNumber = reversedNumber * 10 + remainder;
-            temp /= 10;
-        }
-
-        if (originalNumber == reversedNumber) {
-            printf("%d\n", originalNumber);
-            palindromeCount++;
-        }
+        } while (tabuleiro[linha][coluna] == 1);
+        
+        tabuleiro[linha][coluna] = 1;
     }
 
-    printf("Total de palíndromos: %d\n", palindromeCount);
+    for (int i = 0; i < size; i++){
+        
+        for (int j = 0; j < size; j++){
+            
+            if (tabuleiro[i][j] != 1){
+                
+                tabuleiro[i][j] = 0;
+            }
+        }  
+    }
+    
+    linha = 0;
+    coluna = 0;
+    int abatido = 0;
+
+    for (int i = 0; i < tiros; i++){
+        
+        printf("infome linha: ");
+        scanf("%d",&linha);
+        printf("infome coluna: ");
+        scanf("%d",&coluna);
+        linha -= 1; 
+        coluna -= 1;
+
+        if (tabuleiro[linha][coluna] == 1){
+            
+            printf("Navio abatido\n");
+            abatido++;
+        }
+        else{
+
+            printf("Errou\n");
+        }
+    }
+
+    printf("\nVoce afundou %d navio(s)",abatido);
 
     return 0;
 }
