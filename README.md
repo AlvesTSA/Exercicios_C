@@ -1333,16 +1333,10 @@ Faça um algoritmo que seja capaz de ler esse vetor e seguir a trajetória.
 Crie um tabuleiro de jogo da velha, usando uma matrizes de caracteres (char) 3×3, onde o usuário pede o número da linha (1 até 3) e o da coluna (1 até 3). A cada vez que o usuário entrar com esses dados, colocar um ‘X’ ou ‘O’ no local selecionado.
 </p>
 
-<p align = "justify">
- <strong> 14. </strong> Um número palíndromo é aquele que, se lido de trás para frente e de frete para trás, é o mesmo.
-Exemplos: 2112, 666, 2442 etc…
-Sabendo disso, crie um programa que pergunte ao usuário um intervalo, por exemplo: Inicio – 30, Fim – 2000;
-Com base neste intervalo, verifique quantos palíndromos existem e exiba-os na tela.
-</p>
 
 <p align = "justify">
- <strong> 15. </strong> Faça um jogo de batalha naval, utilize as seguinte regras:
-
+ <strong> 14. </strong> Faça um jogo de batalha naval, utilize as seguinte regras:
+<pre>
 – O primeiro usuário será o que vai configurar o tabuleiro inserindo os navios.
 – O tabuleiro deve ter 8×8
 – Quando inserido todos os navios o restante será considerado como “água”.
@@ -1350,10 +1344,11 @@ Com base neste intervalo, verifique quantos palíndromos existem e exiba-os na t
 – O jogador deve respeitar o espaço de 1 célula entre os navios
 – O jogador que irá descobrir onde os navios estão tem apenas 10 tiros
 – O jogador 1 pode posicionar 5 navios
+</pre>
 </p>
 
 <p align = "justify">
- <strong> 16. </strong> Crie uma agenda que armazena, código da pessoa, número do telefone, idade. Sua agenda deve possibilitar:
+ <strong> 15. </strong> Crie uma agenda que armazena, código da pessoa, número do telefone, idade. Sua agenda deve possibilitar:
 <pre>
 (1) – inserir um contato
 (2) – Remover um contato
@@ -1363,32 +1358,12 @@ Com base neste intervalo, verifique quantos palíndromos existem e exiba-os na t
 </p>
 
 <p align = "justify">
- <strong> 17. </strong> Criando um tabuleiro de Jogo da Velha
+ <strong> 16. </strong> Criando um tabuleiro de Jogo da Velha
 Crie um tabuleiro de jogo da velha, usando uma matrizes de caracteres (char) 3×3, onde o usuário pede o número da linha (1 até 3) e o da coluna (1 até 3). A cada vez que o usuário entrar com esses dados, colocar um ‘X’ ou ‘O’ no local selecionado.
 </p>
 
-<p align = "justify">
- <strong> 18. </strong> Um número palíndromo é aquele que, se lido de trás para frente e de frete para trás, é o mesmo.
-Exemplos: 2112, 666, 2442 etc…
-Sabendo disso, crie um programa que pergunte ao usuário um intervalo, por exemplo: Inicio – 30, Fim – 2000;
-Com base neste intervalo, verifique quantos palíndromos existem e exiba-os na tela.
-</p>
-
-<p align = "justify">
- <strong> 19. </strong>Faça um jogo de batalha naval, utilize as seguinte regras:
-<pre>
-– O primeiro usuário será o que vai configurar o tabuleiro inserindo os navios.
-– O tabuleiro deve ter 8×8
-– Quando inserido todos os navios o restante será considerado como “água”.
-– Cada navio pode ocupar apenas 1 posição
-– O jogador deve respeitar o espaço de 1 célula entre os navios
-– O jogador que irá descobrir onde os navios estão tem apenas 10 tiros
-– O jogador 1 pode posicionar 5 navios
-</pre>
- </p>
-
  <p align = "justify">
- <strong> 20. </strong> Crie um algoritmo que lê 10 números inteiros. Ao final da leitura ele deve fornecer um menú com os seguintes itens:
+ <strong> 17. </strong> Crie um algoritmo que lê 10 números inteiros. Ao final da leitura ele deve fornecer um menú com os seguintes itens:
 <pre>
 (1) Adicionar um número
 (2) Remover um número
@@ -1401,30 +1376,21 @@ Já no segundo menú, ao seleciona-lo, o usuário deverá informar a posição d
 Na terceira e ultima opção, você deve perguntar ao usuário qual numero ele deseja incrementar e de quanto seria este incremento. Então seu sistema deve incrementar o número e manter o vetor organizado em ordem crescente.
 </p>
 
- <p align = "justify">
- <strong> 21. </strong>  Crie uma agenda que armazena, código da pessoa, número do telefone, idade. Sua agenda deve possibilitar:
-<pre>
-(1) – inserir um contato
-(2) – Remover um contato
-(3) – Editar um contato
-(4) – buscar um contato pelo Código.
-</pre>
+
+<p align = "justify">
+ <strong> 18. </strong>Leia uma matriz 8 x 8 e a transforme numa matriz triangular inferior , atribuindo zero a todos os elementos acima da diagonal principal, escrevendo-a ao final.
 </p>
 
 <p align = "justify">
- <strong> 22. </strong>Leia uma matriz 8 x 8 e a transforme numa matriz triangular inferior , atribuindo zero a todos os elementos acima da diagonal principal, escrevendo-a ao final.
+ <strong> 19. </strong>  Leia uma matriz 5 x 5 e faça uma troca entre as diagonais superior e inferior. Escreva-a ao final.
 </p>
 
 <p align = "justify">
- <strong> 23. </strong>  Leia uma matriz 5 x 5 e faça uma troca entre as diagonais superior e inferior. Escreva-a ao final.
+ <strong> 20. </strong>Leia duas matrizes 10 x 10 e faça uma substituição entre a diagonal inferior da primeira coma diagonal superior da segunda.
 </p>
 
 <p align = "justify">
- <strong> 24. </strong>Leia duas matrizes 10 x 10 e faça uma substituição entre a diagonal inferior da primeira coma diagonal superior da segunda.
-</p>
-
-<p align = "justify">
- <strong> 25. </strong>Considere uma matriz de distância entre cidades 6 x 6:
+ <strong> 21. </strong>Considere uma matriz de distância entre cidades 6 x 6:
 
 <table border="1">
   <tr>
