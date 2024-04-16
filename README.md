@@ -1362,35 +1362,20 @@ Crie um tabuleiro de jogo da velha, usando uma matrizes de caracteres (char) 3×
 Crie um tabuleiro de jogo da velha, usando uma matrizes de caracteres (char) 3×3, onde o usuário pede o número da linha (1 até 3) e o da coluna (1 até 3). A cada vez que o usuário entrar com esses dados, colocar um ‘X’ ou ‘O’ no local selecionado.
 </p>
 
- <p align = "justify">
- <strong> 17. </strong> Crie um algoritmo que lê 10 números inteiros. Ao final da leitura ele deve fornecer um menú com os seguintes itens:
-<pre>
-(1) Adicionar um número
-(2) Remover um número
-(3) Incrementar um número
-</pre>
-No primeiro menú, você deve adicionar um número ao vetor. No entanto este vetor deve permanecer em ordem Crescente. 
-
-Já no segundo menú, ao seleciona-lo, o usuário deverá informar a posição do numero ou então o próprio numero e seu sistema deve remove-lo. Mas cuidado, você deverá reposicionar os números restantes para que não haja “buracos” no vetor. Além disso, o vetor deve permanecer em ordem crescente.
-
-Na terceira e ultima opção, você deve perguntar ao usuário qual numero ele deseja incrementar e de quanto seria este incremento. Então seu sistema deve incrementar o número e manter o vetor organizado em ordem crescente.
-</p>
-
-
 <p align = "justify">
- <strong> 18. </strong>Leia uma matriz 8 x 8 e a transforme numa matriz triangular inferior , atribuindo zero a todos os elementos acima da diagonal principal, escrevendo-a ao final.
+ <strong> 17. </strong>Leia uma matriz 8 x 8 e a transforme numa matriz triangular inferior , atribuindo zero a todos os elementos acima da diagonal principal, escrevendo-a ao final.
 </p>
 
 <p align = "justify">
- <strong> 19. </strong>  Leia uma matriz 5 x 5 e faça uma troca entre as diagonais superior e inferior. Escreva-a ao final.
+ <strong> 18. </strong>  Leia uma matriz 5 x 5 e faça uma troca entre as diagonais superior e inferior. Escreva-a ao final.
 </p>
 
 <p align = "justify">
- <strong> 20. </strong>Leia duas matrizes 10 x 10 e faça uma substituição entre a diagonal inferior da primeira coma diagonal superior da segunda.
+ <strong> 19. </strong>Leia duas matrizes 10 x 10 e faça uma substituição entre a diagonal inferior da primeira coma diagonal superior da segunda.
 </p>
 
 <p align = "justify">
- <strong> 21. </strong>Considere uma matriz de distância entre cidades 6 x 6:
+ <strong> 20. </strong>Considere uma matriz de distância entre cidades 6 x 6:
 
 <table border="1">
   <tr>
