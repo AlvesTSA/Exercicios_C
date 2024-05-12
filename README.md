@@ -171,7 +171,7 @@
 
 
 <p align="center">
-  💼 Skills: <strong>pré-requisito para resolver os exercícios sobre Matrizes.</strong>
+  💼 Skills: <strong>pré-requisito para resolver os exercícios sobre Funções.</strong>
 </p>
 
 <p align="left">
